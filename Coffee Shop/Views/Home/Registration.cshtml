@@ -1,0 +1,19 @@
+﻿<h1>Want to register an account with us? Fill out this form!</h1>
+<p>We will send you emails and discounts weekly! We also provide reward points for every fifth visit!</p>
+
+
+<form asp-action="Registered" asp-controller="Home" method="post">
+    <p>First Name</p>
+    <input type="text" name="FirstName" />
+
+    <p>Last name</p>
+    <input type="text" name="LastName" />
+
+    <p>Email</p>
+    <input type="email" name="Email" />
+
+    <p>Password</p>
+    <input type="password" name="Password" />
+
+    <input type="submit" value="Sign Up!" />
+</form>
